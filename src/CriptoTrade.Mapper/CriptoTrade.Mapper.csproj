@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Binance.Net" Version="6.13.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CriptoTrade.Contracts\CriptoTrade.Contracts.csproj" />
+    <ProjectReference Include="..\CriptoTrade.Domain\CriptoTrade.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

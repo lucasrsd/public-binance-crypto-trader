@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CA5DD5D5-C879-4448-B4C6-D24973BA5484}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B9F61923-2B15-41D2-835B-46A57A614844}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B4684198-A832-4BBC-A14D-FC2502ED0A70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Domain", "CriptoTrade.Domain\CriptoTrade.Domain.csproj", "{2757FBA5-83B0-451A-AA72-F31E037453FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Functions", "CriptoTrade.Functions\CriptoTrade.Functions.csproj", "{601F86A5-A0D6-4A03-BF70-CADB4AC7128E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Common", "CriptoTrade.Common\CriptoTrade.Common.csproj", "{EF0BD05E-B826-4CC2-9F79-F86E1BAA16F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Notification", "CriptoTrade.Notification\CriptoTrade.Notification.csproj", "{D61A487F-7332-4D3F-8B16-16298813C511}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{025ECA0C-C479-4186-96F5-EA5B85E5728F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Test.ConsoleTest", "CriptoTrade.Test.Console\CriptoTrade.Test.ConsoleTest.csproj", "{7B80FF4E-46E9-49B0-95AE-79E593047B39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Contracts", "CriptoTrade.Contracts\CriptoTrade.Contracts.csproj", "{BE324CDD-1B3D-4195-BCA6-FCDBFA739195}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Command", "CriptoTrade.Command\CriptoTrade.Command.csproj", "{6DBAF29F-F02E-457B-A78B-BA819B88D25D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Mapper", "CriptoTrade.Mapper\CriptoTrade.Mapper.csproj", "{751606FE-45EE-441E-AB47-91D65DA142CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriptoTrade.Database", "CriptoTrade.Database\CriptoTrade.Database.csproj", "{E0FB3624-B47C-4143-82C8-C9418CA3F0E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2757FBA5-83B0-451A-AA72-F31E037453FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2757FBA5-83B0-451A-AA72-F31E037453FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2757FBA5-83B0-451A-AA72-F31E037453FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2757FBA5-83B0-451A-AA72-F31E037453FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601F86A5-A0D6-4A03-BF70-CADB4AC7128E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601F86A5-A0D6-4A03-BF70-CADB4AC7128E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601F86A5-A0D6-4A03-BF70-CADB4AC7128E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601F86A5-A0D6-4A03-BF70-CADB4AC7128E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0BD05E-B826-4CC2-9F79-F86E1BAA16F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0BD05E-B826-4CC2-9F79-F86E1BAA16F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0BD05E-B826-4CC2-9F79-F86E1BAA16F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0BD05E-B826-4CC2-9F79-F86E1BAA16F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61A487F-7332-4D3F-8B16-16298813C511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61A487F-7332-4D3F-8B16-16298813C511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61A487F-7332-4D3F-8B16-16298813C511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61A487F-7332-4D3F-8B16-16298813C511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B80FF4E-46E9-49B0-95AE-79E593047B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B80FF4E-46E9-49B0-95AE-79E593047B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B80FF4E-46E9-49B0-95AE-79E593047B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B80FF4E-46E9-49B0-95AE-79E593047B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE324CDD-1B3D-4195-BCA6-FCDBFA739195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE324CDD-1B3D-4195-BCA6-FCDBFA739195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE324CDD-1B3D-4195-BCA6-FCDBFA739195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE324CDD-1B3D-4195-BCA6-FCDBFA739195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBAF29F-F02E-457B-A78B-BA819B88D25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBAF29F-F02E-457B-A78B-BA819B88D25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBAF29F-F02E-457B-A78B-BA819B88D25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBAF29F-F02E-457B-A78B-BA819B88D25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751606FE-45EE-441E-AB47-91D65DA142CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751606FE-45EE-441E-AB47-91D65DA142CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751606FE-45EE-441E-AB47-91D65DA142CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751606FE-45EE-441E-AB47-91D65DA142CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FB3624-B47C-4143-82C8-C9418CA3F0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FB3624-B47C-4143-82C8-C9418CA3F0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FB3624-B47C-4143-82C8-C9418CA3F0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FB3624-B47C-4143-82C8-C9418CA3F0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2757FBA5-83B0-451A-AA72-F31E037453FA} = {CA5DD5D5-C879-4448-B4C6-D24973BA5484}
+		{601F86A5-A0D6-4A03-BF70-CADB4AC7128E} = {B9F61923-2B15-41D2-835B-46A57A614844}
+		{EF0BD05E-B826-4CC2-9F79-F86E1BAA16F2} = {B4684198-A832-4BBC-A14D-FC2502ED0A70}
+		{D61A487F-7332-4D3F-8B16-16298813C511} = {B4684198-A832-4BBC-A14D-FC2502ED0A70}
+		{7B80FF4E-46E9-49B0-95AE-79E593047B39} = {025ECA0C-C479-4186-96F5-EA5B85E5728F}
+		{BE324CDD-1B3D-4195-BCA6-FCDBFA739195} = {B4684198-A832-4BBC-A14D-FC2502ED0A70}
+		{6DBAF29F-F02E-457B-A78B-BA819B88D25D} = {CA5DD5D5-C879-4448-B4C6-D24973BA5484}
+		{751606FE-45EE-441E-AB47-91D65DA142CD} = {B4684198-A832-4BBC-A14D-FC2502ED0A70}
+		{E0FB3624-B47C-4143-82C8-C9418CA3F0E4} = {B4684198-A832-4BBC-A14D-FC2502ED0A70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67A38390-C685-4C10-B028-5E67FCC96230}
+	EndGlobalSection
+EndGlobal

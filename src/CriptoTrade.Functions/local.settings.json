@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "BINANCE_API_SECRET": "XXX",
+    "BINANCE_API_KEY": "XXX",
+    "TELEGRAM_BINANCE_GROUP": "-xxxx",
+    "CRIPTOTRADE_USER": "LUCAS"
+  }
+}

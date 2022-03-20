@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.12.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CriptoTrade.Common\CriptoTrade.Common.csproj" />
+    <ProjectReference Include="..\CriptoTrade.Contracts\CriptoTrade.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
